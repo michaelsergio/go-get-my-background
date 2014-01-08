@@ -1,4 +1,7 @@
 # https://github.com/github/gitignore
+
+images/
+
 ## OSX
 .DS_Store
 .AppleDouble
