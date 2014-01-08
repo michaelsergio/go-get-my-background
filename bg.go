@@ -89,7 +89,7 @@ func listStories() {
 			}
 
 			go func(url, path string) {
-				fmt.Printf("\033[32mFrom:%v\033[0m\n", filepath)
+				//fmt.Printf("\033[32mFrom:%v\033[0m\n", filepath)
 				downloadFile(url, path)
 				downloads <- url // Download Finished
 			}(headline.URL, filepath)
