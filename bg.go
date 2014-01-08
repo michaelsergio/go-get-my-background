@@ -50,7 +50,7 @@ func downloadFile(from, to string) {
 	if err != nil {
 		return
 	}
-	fmt.Printf("\033[33mFrom:%v To:%v\033[0m\n", from, to)
+	//fmt.Printf("\033[33mFrom:%v To:%v\033[0m\n", from, to)
 
 	resp, err := http.Get(from)
 	defer resp.Body.Close()
