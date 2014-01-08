@@ -1,0 +1,22 @@
+# Change BG
+
+
+## Service
+it looks like theres a service running that changes pictures.
+see if I can find a monitoring daemon to get the folder part working.
+
+## This totally works
+osascript -e "tell application \"System Events\" to set picture of every desktop to \"/path/to/image.jpg\""
+
+## No duplicate
+Initially read folder and hash contents.
+Don't redownload and don't overwrite.
+
+## Metadata
+The title is very intresting. I might want to put that in the exif data.
+
+# Urls
+[ref](http://derflounder.wordpress.com/2013/10/26/mavericks-desktop-background-picture-settings-moved-from-librarypreferencescom-apple-desktop-plist/)
+
+
+
